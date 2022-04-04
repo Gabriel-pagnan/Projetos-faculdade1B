@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background: rgb(22, 22, 22);
+}
+
+/*Menu*/
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.4);              
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.menu h1{
+    text-align: left;
+}
+ul{
+    display: flex;
+}
+li,a{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*part1*/
+.style{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.style ul{
+    flex-direction: column;
+    margin-top: 12px;
+}
+.style h1{
+    color: rgb(24,196,255);
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+/*part2*/
+.band{
+    display: flex;
+    margin-top: 2em;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.band img{
+    transform: rotateY(150deg);
+}
+.band li{
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+}
+.band h1{
+    font-size: 35px;
+    color: rgb(24,196,255);
+    margin-bottom: 15px;
+}
+.band ul{
+    flex-direction: column;
+}
+.band .down{
+    transform: rotateX(25deg);
+    position: relative;
+    top: 18rem;
+     
+}
+/*part3*/
+.spot{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.spot h1{
+    color: rgb(24,196,255);
+}
+.spot .link{
+    filter: drop-shadow(10px 10px 0.4em rgba(255,255,255,0.2));
+    /*box-shadow: 43px 44px 22px -5px rgba(255,255,255,0.1);*/
+}
+
+

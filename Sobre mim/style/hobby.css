@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background: rgb(22, 22, 22);
+}
+/*Menu*/
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.4);              
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: sticky;
+    top: 0;
+}
+.menu h1{
+    text-align: left;
+}
+ul{
+    display: flex;
+}
+li,a{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*info*/
+.info{
+    display: grid;
+    flex-direction: column;
+    
+}
+.info h1{
+    color: rgb(24,196,255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.gym{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+.read{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.read h1{
+    margin-right: 3rem;
+}
